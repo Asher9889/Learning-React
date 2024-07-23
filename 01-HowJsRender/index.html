@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Using JavaScript</title>
+</head>
+<body>
+    <div id="div"></div>
+
+    
+    <script>
+        // what write in Script tags bwoser engine runs it as a js file
+        // browser has JavaScript Engine to execute js code
+        // but how browser understand React ??? 
+        const div = document.querySelector("#div")
+        const h1 = document.createElement("h1") 
+
+        h1.innerHTML = "Welcome to DOM Using JavaScript"
+        div.appendChild(h1)
+    </script>
+</body>
+</html>

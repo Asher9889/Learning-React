@@ -1,0 +1,9 @@
+
+1. What is CDN ?
+ANS: Content Delivery Network or Content Distribution Network
+     CDN is group of servers. These servers contains the data. These servers are situated around the world. When we get any data using CDN Links it get connected to Nearest server. and we can fatch only need info. all the information get stored in server and whatever info we need we can get through this.
+
+2. What is CrossOrigin ? 
+
+3. react.development.js -- It is core library. It contains core features of React.
+4. react-dom.development.js -- It is for performing DOM Manipulation using React.  
