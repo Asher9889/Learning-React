@@ -14,6 +14,8 @@ const Header = () => {
           <li className="hover:text-black cursor-pointer"><Link  to="/about">About</Link></li>
 
           <li className="hover:text-black cursor-pointer">Contact Us</li>
+
+          <li className="hover:text-black cursor-pointer"><button>Cart (0 Items)</button></li>
         </ul>
       </div>
     </div>
