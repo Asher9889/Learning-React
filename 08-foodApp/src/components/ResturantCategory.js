@@ -15,7 +15,7 @@ const ResturantCategory = ({category,showList, setShowIndex, showOrHidelist})=>{
         <div className="bg-zinc-200 py-4 shadow-xl my-6  rounded-md px-2">
             <div onClick={handleClick} className="flex justify-between">
                 <h3 className="text-xl font-bold cursor-pointer"> &nbsp;{title} &nbsp;({items?.length})</h3>
-                Down
+               
             </div>
             {showList && items?.map((item)=>(
                 <ItemsList item={item}  />

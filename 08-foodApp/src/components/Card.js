@@ -17,8 +17,8 @@ const Card = ({restaurant})=>{
                 <p>{avgRating} Stars </p>
                 <p>{`${locality}, ${areaName }`}</p>
                 <div className="flex flex-wrap">
-                    {cuisines?.map((cui)=>(
-                    <p>{cui},&nbsp; </p>
+                    {cuisines?.map((cui, index)=>(
+                    <p key={index}>{cui},&nbsp; </p>
                     ))}
                 </div>
             </div>

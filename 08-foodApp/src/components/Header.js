@@ -1,7 +1,12 @@
 import logo from "../assets/logo.png"
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux"
 
 const Header = () => {
+
+  const cartItems = useSelector((state)=> state.cart.items)
+
+  console.log("cartItems is :", cartItems)
   return (
     <div className="bg-zinc-200 flex justify-between items-center px-4">
       <div className="w-16">
@@ -15,7 +20,7 @@ const Header = () => {
 
           <li className="hover:text-black cursor-pointer">Contact Us</li>
 
-          <li className="hover:text-black cursor-pointer"><button>Cart (0 Items)</button></li>
+          <li className="hover:text-black cursor-pointer"><Link to="/cart"><button>Cart ({cartItems.length} items)</button></Link></li>
         </ul>
       </div>
     </div>

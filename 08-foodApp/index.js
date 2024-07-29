@@ -5,6 +5,7 @@ import Body from "./src/components/Body";
 import Contact from "./src/components/Contact";
 import About from "./src/components/About";
 import RestaurantMenu from "./src/components/RestaurantMenu";
+import Cart from "./src/components/Cart";
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
             {
                 path:"/restaurant/:id",
                 element: <RestaurantMenu />
+            },
+            {
+                path: "/cart",
+                element: <Cart />
             }
         ]
     }
