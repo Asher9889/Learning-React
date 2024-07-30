@@ -1,7 +1,8 @@
 const About = ()=>{
     return (
         <div>
-            About
+            <h1>i am an about page</h1>
+            <input type="text" placeholder="input"/>
         </div>
     )
 }
